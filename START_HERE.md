@@ -9,4 +9,4 @@
 7. Put the URL of your public repository in `REPOSITORY_URL.txt`.
 8. On Gradescope, submit the repository itself using the GitHub submission option.
 
-The checker reports objective omissions. A green check does not mean that the question, analysis, or explanation is good. Use the assignment rubric for those decisions.
+The checker reports objective omissions. A green check does not mean that the problem, analysis, or explanation is good. Use the assignment requirements and instructor feedback for those decisions.

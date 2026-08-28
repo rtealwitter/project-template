@@ -2,17 +2,17 @@
 
 <!-- Replace every bracketed instruction and delete every HTML comment before the final submission. -->
 
-**Question:** [Write the exact question in one sentence.]
+**Problem:** [State the problem in one sentence.]
 
 [Give the answer your evidence supports in one or two plain sentences.]
 
-## The question
+## Problem
 
 [Name the objects you are studying and the relationship, comparison, or prediction you want to understand. A reader should know what would count as an answer.]
 
-## Why this question
+## Intuition
 
-[Who could use the answer? Begin with the smallest concrete example that makes the question easy to see. Explain the intuition a reader needs before introducing a model.]
+[Begin with the smallest concrete example or observation that makes the problem easy to see. Explain the intuition a reader needs before introducing a model.]
 
 ## Data
 
