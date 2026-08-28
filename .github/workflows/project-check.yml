@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   check:
-    if: github.repository != 'rtealwitter/datamining-project-template'
+    if: github.repository != 'rtealwitter/project-template'
     runs-on: ubuntu-latest
     steps:
       - name: Check out project
