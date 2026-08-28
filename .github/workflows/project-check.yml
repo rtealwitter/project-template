@@ -1,0 +1,29 @@
+name: Check project requirements
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: github.repository != 'rtealwitter/datamining-project-template'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out project
+        uses: actions/checkout@v4
+
+      - name: Download the course checker
+        run: |
+          curl --fail --location --silent --show-error \
+            https://raw.githubusercontent.com/rtealwitter/datamining2026fall/main/tools/project_grader/check_project.py \
+            --output "$RUNNER_TEMP/check_project.py"
+
+      - name: Check repository
+        run: |
+          python "$RUNNER_TEMP/check_project.py" \
+            --stage "$(tr -d '[:space:]' < project-stage.txt)" \
+            --repository "$GITHUB_REPOSITORY" \
+            .
