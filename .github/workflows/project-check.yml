@@ -24,6 +24,5 @@ jobs:
       - name: Check repository
         run: |
           python "$RUNNER_TEMP/check_project.py" \
-            --stage "$(tr -d '[:space:]' < project-stage.txt)" \
             --repository "$GITHUB_REPOSITORY" \
             .
