@@ -1,24 +1,16 @@
 # AI use
 
-Name each AI tool you used, including the model when you know it. For each substantial task, record:
+Keep a short account of the important tasks you gave AI and how you checked its work.
+Record the decisions that affected your analysis: instructions you supplied, suggestions you accepted or rejected, and mistakes you found.
+You do not need to paste every prompt or record routine edits.
+If you did not use AI, replace this template with a sentence saying so.
 
-- what you asked the tool to do;
-- which files, code, analysis choices, or figures it changed;
-- how you tested or checked the result; and
-- any important error, weak suggestion, or change of direction.
+## [TODO: task]
 
-You do not need to paste every conversational turn. Give enough detail for another person to distinguish your decisions from the tool's execution and to understand how you kept control of the work.
+**Tool:** [TODO: name the tool and model, if known.]
 
-## Work log
+**Instructions:** [TODO: describe the task and the data, methods, comparisons, or outputs you specified.]
 
-### [Date and task]
+**Checks:** [TODO: explain how you checked the result.]
 
-**Tool:** [Tool and model]
-
-**Task:** [What you asked it to accomplish]
-
-**Result:** [What it produced or changed]
-
-**Verification:** [Tests, comparisons, source checks, manual inspection, or reasoning you used]
-
-**Corrections:** [What you rejected or revised]
+**Decisions:** [TODO: describe what you kept, changed, or rejected, and why.]

@@ -1,7 +1,7 @@
 """Project analysis.
 
-Replace this starter with code that loads the data, computes the naive
-baseline, runs the main analysis, and writes every README figure to figures/.
+Replace this starter with code that loads the data, compares the
+baseline and course methods, and writes every README figure to figures/.
 Keep the decisions and explanations in README.md; keep the execution here.
 """
 

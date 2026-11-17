@@ -18,7 +18,7 @@ jobs:
       - name: Download the course checker
         run: |
           curl --fail --location --silent --show-error \
-            https://raw.githubusercontent.com/rtealwitter/datamining2026fall/main/tools/project_grader/check_project.py \
+            https://csci145.rtealwitter.com/tools/project_grader/check_project.py \
             --output "$RUNNER_TEMP/check_project.py"
 
       - name: Check repository
