@@ -1,6 +1,6 @@
 # [TODO: project title]
 
-<!-- These headings are suggestions. Rename, combine, or reorder them to fit your explanation. Replace the bracketed prompts as you develop the report. Write for a classmate who knows the course material but has not worked on your project. -->
+<!-- Keep this file at the repository root and include all written answers to the assignment's four prompts: problem statement, dataset, algorithms, and results and visuals. Submit it with your code and figures through Gradescope's GitHub submission option. These headings are suggestions. Rename, combine, or reorder them to fit your explanation. Replace the bracketed prompts as you develop the report. Write for a classmate who knows the course material but has not worked on your project. -->
 
 [TODO: introduce your question and the main result.]
 
